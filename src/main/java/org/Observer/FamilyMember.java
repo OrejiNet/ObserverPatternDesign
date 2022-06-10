@@ -2,15 +2,15 @@
 package org.Observer;
 
 import org.Observable.Dog;
-import org.Observable.IPet;
+import org.Observable.Pet;
 
 public class FamilyMember implements IFamilyMember {
 
-    private Dog pet;
+    private Pet pet;
     public String name;
 
-    public FamilyMember(IPet _pet, String _name) {
-        pet = (Dog) _pet;
+    public FamilyMember(Pet _pet, String _name) {
+        pet  = _pet;
         name = _name;
     }
 
