@@ -1,7 +1,6 @@
 
 package org.Observer;
 
-import org.Observable.Dog;
 import org.Observable.Pet;
 
 public class FamilyMember implements IFamilyMember {

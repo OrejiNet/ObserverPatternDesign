@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c59f2e1-8b11-4ebc-aeb2-f6c4aeb9de9d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="8c59f2e1-8b11-4ebc-aeb2-f6c4aeb9de9d" name="Changes" comment="[add] change interface by abstract class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Entry/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Entry/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Observable/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Observable/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Observable/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Observable/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Observable/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Observable/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Observer/FamilyMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Observer/FamilyMember.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +21,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,11 +91,38 @@
       <option name="project" value="LOCAL" />
       <updated>1654814897045</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[add] casting">
+      <created>1654826058317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654826058317</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[add] change interface by abstract class">
+      <created>1654827162852</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654827162852</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[add] observer pattern example with pet and family members" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add] observer pattern example with pet and family members" />
+    <MESSAGE value="[add] casting" />
+    <MESSAGE value="[add] change interface by abstract class" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] change interface by abstract class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Observer/IFamilyMember.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

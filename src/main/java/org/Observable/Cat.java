@@ -1,6 +1,6 @@
 package org.Observable;
 
-import org.Observer.IFamilyMember;
+
 
 public class Cat extends Pet  {
 

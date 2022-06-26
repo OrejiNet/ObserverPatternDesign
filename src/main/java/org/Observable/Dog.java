@@ -1,7 +1,4 @@
 package org.Observable;
-import org.Observer.IFamilyMember;
-
-import java.util.*;
 
 
 public class Dog extends Pet {

@@ -18,16 +18,16 @@ public class Main {
         rex.play();
         rex.sick();
 
-        Cat snowBall = new Cat("snowball");
-        FamilyMember rob = new FamilyMember(snowBall,"rob");
-        FamilyMember bob = new FamilyMember(snowBall,"bob");
+       Cat snowBall = new Cat("snowball");
+       FamilyMember rob = new FamilyMember(snowBall,"rob");
+       FamilyMember bob = new FamilyMember(snowBall,"bob");
 
-        snowBall.attach(bob);
-        snowBall.attach(rob);
+       snowBall.attach(bob);
+       snowBall.attach(rob);
 
-        snowBall.hungry();
-        snowBall.detach(bob);
-        snowBall.thirsty();
+       snowBall.hungry();
+       snowBall.detach(bob);
+       snowBall.thirsty();
 
 
     }
